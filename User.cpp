@@ -2,25 +2,25 @@
 
 
 
+User::User(int UserId, userType UserType, string UserName, string UserPassword, string UserEmail)
+{
+    this->UserId = UserId;
+    this->UserType = UserType;
+    this->UserName = UserName;
+    this->UserPassword = UserPassword;
+    this->UserEmail = UserEmail;
+}
+
 User::User()
 {
+    this->UserId = 0;
+    //this->UserType = NULL;
+    this->UserName = "";
+    this->UserPassword = "";
+    this->UserEmail = "";
 }
 
 
 User::~User()
 {
 }
-/*
-void User::addUser(int UserId, string UserName, userType UserType, string UserEmail, list <Comment*> comments, list<Rating*> ratings) //UserType Eklenecek
-{
-}
-void User::deleteUser(int UserId)
-{
-}
-void User::showUser()
-{
-}
-void User::editUser(int UserId, string UserName, string UserEmail, list <Comment*> comments, list<Rating*> ratings)
-{
-}
-*/

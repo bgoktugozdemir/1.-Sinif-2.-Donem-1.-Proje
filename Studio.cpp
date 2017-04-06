@@ -2,28 +2,21 @@
 
 
 
+Studio::Studio(int StudioId, string StudioName, string StudioInfo)
+{
+    this->StudioId = StudioId;
+    this->StudioName = StudioName;
+    this->StudioInfo = StudioInfo;
+}
+
 Studio::Studio()
 {
+    this->StudioId = 0;
+    this->StudioName = "";
+    this->StudioInfo = "";
 }
 
 
 Studio::~Studio()
 {
 }
-/*
-void Studio::addStudio(int StudioId, string StudioName, string StudioInfo, list<Movie*> movies)
-{
-}
-
-void Studio::deleteStudio(int StudioId)
-{
-}
-
-void Studio::showStudio()
-{
-}
-
-void Studio::editStudio(int StudioId, string StudioName, string StudioInfo, list<Movie*> movies)
-{
-}
-*/
