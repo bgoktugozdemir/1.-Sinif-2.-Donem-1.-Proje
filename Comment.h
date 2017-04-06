@@ -15,14 +15,12 @@ public:
 	time_t CommentTime; 
 	User* UserId;
 	Movie* MovieId;
-	string comment;
+    string comment;
 
 	Comment();
+    Comment(int CommentId,time_t CommentTime,string comment);
 	~Comment();
-	/*
-	void addComment(int CommentId, time_t CommentTime, string comment, User* UserId, Movie* MovieId); //CommentTime eklenecek
-	void deleteComment(int CommentId);
-	void showComment();
-	void editComment(int CommentId, string comment, User* UserId, Movie* MovieId); //CommentTime eklenecek
-	*/
+
 };
+
+

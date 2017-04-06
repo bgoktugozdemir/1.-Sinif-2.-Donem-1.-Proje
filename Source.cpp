@@ -6,10 +6,11 @@
 
 using namespace std;
 
-void main()
+int main()
 {
 	Comment  yorum;
-	yorum.CommentTime = time(NULL);
+    yorum.CommentTime = time(NULL);
 	cout << yorum.CommentTime << endl;
 	cout << "Yazilimimiz tam surumuyle yakinda sizlerle..." << endl;
+    return 0;
 }

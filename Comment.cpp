@@ -1,26 +1,21 @@
 #include "Comment.h"
 
 
+Comment::Comment(int CommentId, time_t CommentTime, string comment)
+{
+    this->CommentId = CommentId;
+    this->CommentTime = CommentTime;
+    this->comment = comment;
+}
 
 Comment::Comment()
 {
+    this->CommentId = 0;
+    this->CommentTime = NULL;
+    this->comment = "";
 }
 
 
 Comment::~Comment()
 {
 }
-/*
-void Comment::addComment(int CommentId, time_t CommentTime, string comment, User* UserId, Movie* MovieId) //CommentTime eklenecek
-{
-}
-void Comment::deleteComment(int CommentId)
-{
-}
-void Comment::showComment()
-{
-}
-void Comment::editComment(int CommentId, string comment, User* UserId, Movie* MovieId) //CommentTime eklenecek
-{
-}
-*/
