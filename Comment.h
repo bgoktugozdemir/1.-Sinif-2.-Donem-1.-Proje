@@ -12,17 +12,17 @@ class Comment
 {
 public:
 	int CommentId;
-	//TODO CommentTime; // için veri tipi ve kütüphane sorunu
+	time_t CommentTime; 
 	User* UserId;
 	Movie* MovieId;
 	string comment;
 
 	Comment();
 	~Comment();
-
-	void addComment(int CommentId, string comment, User* UserId, Movie* MovieId); //CommentTime eklenecek
+	/*
+	void addComment(int CommentId, time_t CommentTime, string comment, User* UserId, Movie* MovieId); //CommentTime eklenecek
 	void deleteComment(int CommentId);
 	void showComment();
 	void editComment(int CommentId, string comment, User* UserId, Movie* MovieId); //CommentTime eklenecek
-
+	*/
 };

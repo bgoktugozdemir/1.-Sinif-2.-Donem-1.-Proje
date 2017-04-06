@@ -10,7 +10,7 @@ Studio::Studio()
 Studio::~Studio()
 {
 }
-
+/*
 void Studio::addStudio(int StudioId, string StudioName, string StudioInfo, list<Movie*> movies)
 {
 }
@@ -26,3 +26,4 @@ void Studio::showStudio()
 void Studio::editStudio(int StudioId, string StudioName, string StudioInfo, list<Movie*> movies)
 {
 }
+*/

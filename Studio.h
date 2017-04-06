@@ -16,10 +16,15 @@ public:
 
 	Studio();
 	~Studio();
-
+	/*
+	//Stüdyo Ekleme
 	void addStudio(int StudioId, string StudioName, string StudioInfo, list<Movie*> movies);
+	//Stüdyo Silme
 	void deleteStudio(int StudioId);
+	//Stüdyo Görüntüleme
 	void showStudio();
+	//Stüdyo Düzenleme
 	void editStudio(int StudioId, string StudioName, string StudioInfo, list<Movie*> movies);
+	*/
 };
 
